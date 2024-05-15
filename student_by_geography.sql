@@ -28,12 +28,13 @@ LEFT JOIN
 LEFT JOIN 
     CTEEU ON CTEAM.row_numAm = CTEEU.row_numEu;
 
-########## OR ################
+########## OR We caan aslo use  ################
     -- FROM CTEAS
     -- RIGHT JOIN CTEAM 
     -- ON CTEAM.row_numAm = CTEAS.row_numAs
     -- LEFT JOIN CTEEU 
     -- ON CTEAM.row_numAm = CTEEU.row_numEu
+#################################################
 # Using Subquery
 SELECT Am.America, Asi.Asia, Eu.Europe
 FROM (
